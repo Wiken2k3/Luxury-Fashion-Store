@@ -1,0 +1,147 @@
+.cart {
+  margin: 40px auto;
+  padding: 24px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+  max-width: 900px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.cart h2 {
+  font-size: 24px;
+  color: #1f2937;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.empty-cart {
+  text-align: center;
+  font-size: 16px;
+  color: #555;
+}
+
+.cart-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cart-item {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 16px;
+}
+
+.cart-item img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.info {
+  flex: 1;
+}
+
+.info h4 {
+  font-size: 16px;
+  color: #111827;
+  margin-bottom: 6px;
+}
+
+.info p {
+  color: #6b7280;
+  margin: 0;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.quantity button {
+  padding: 6px 12px;
+  background: #111827;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.quantity button:hover {
+  background: #374151;
+}
+
+.remove {
+  background: none;
+  border: none;
+  color: #dc2626;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.remove:hover {
+  color: red;
+}
+
+.total {
+  text-align: right;
+  font-weight: bold;
+  font-size: 18px;
+  color: #1f2937;
+  margin-top: 20px;
+}
+
+.checkout {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.checkout-btn {
+  padding: 14px 28px;
+  background: linear-gradient(135deg, #ef4444, #b91c1c);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  box-shadow: 0 6px 16px rgba(185, 28, 28, 0.4);
+  width: 100%;
+  max-width: 300px;
+}
+
+.checkout-btn:hover {
+  transform: scale(1.03);
+  background: linear-gradient(135deg, #dc2626, #991b1b);
+  box-shadow: 0 8px 24px rgba(185, 28, 28, 0.5);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .cart-item {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .quantity {
+    justify-content: center;
+  }
+
+  .total {
+    text-align: center;
+  }
+
+  .checkout-btn {
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,18 @@
+.hero-slider {
+    background: url('/banner.jpg') center/cover no-repeat;
+    height: 300px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .hero-slider .slide {
+    text-align: center;
+    background: rgba(0,0,0,0.4);
+    padding: 20px 30px;
+    border-radius: 10px;
+  }
+  

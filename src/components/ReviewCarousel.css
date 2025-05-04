@@ -1,0 +1,38 @@
+.carousel-container {
+  max-width: 1000px;
+  margin: auto;
+  margin-bottom: 40px;
+  position: relative;
+  overflow: hidden;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background: #fff;
+}
+
+.carousel-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.carousel-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.review-card {
+  text-align: center;
+  padding: 10px;
+  max-width: 300px;
+}
+
+.arrow {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}

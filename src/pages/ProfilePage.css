@@ -1,0 +1,66 @@
+.profile-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+  }
+  
+  .profile-container h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #1f2937;
+  }
+  
+  .profile-info {
+    background: #f9fafb;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-bottom: 30px;
+  }
+  
+  .profile-info p {
+    font-size: 15px;
+    margin-bottom: 8px;
+  }
+  
+  .logout-btn {
+    background-color: #dc2626;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .logout-btn:hover {
+    background-color: #991b1b;
+  }
+  
+  .profile-orders {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .order-summary-card {
+    background: #f1f5f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    position: relative;
+    border-left: 5px solid #1e40af;
+    transition: box-shadow 0.2s ease;
+  }
+  
+  .order-summary-card p {
+    margin: 4px 0;
+  }
+  .order-summary-card:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  }

@@ -1,0 +1,132 @@
+.product-detail-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 40px 20px;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #fff;
+}
+
+.product-image-large {
+  flex: 1;
+  min-width: 300px;
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.product-info {
+  flex: 1;
+  min-width: 300px;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.product-info h2 {
+  font-size: 24px;
+  color: #111827;
+}
+
+.product-price {
+  font-size: 20px;
+  color: #1e293b;
+  font-weight: bold;
+}
+
+.product-description {
+  font-size: 14px;
+  color: #475569;
+  line-height: 1.6;
+}
+
+.product-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.product-actions input {
+  width: 60px;
+  padding: 6px;
+  font-size: 16px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-to-cart-btn {
+  background-color: #111827;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #1f2937;
+}
+
+/* Review Section */
+.review-section {
+  margin-top: 30px;
+}
+
+.review-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.review-form textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 14px;
+  font-family: 'Times New Roman', serif;
+  border-radius: 6px;
+  resize: vertical;
+}
+
+.submit-review-btn {
+  background-color: #2d8ece;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.submit-review-btn:hover {
+  background-color: #111827;
+}
+
+.single-review {
+  margin-top: 15px;
+  padding: 10px 0;
+  border-top: 1px solid #eee;
+}
+
+.single-review p {
+  margin: 4px 0;
+  font-size: 14px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .product-detail-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .product-actions {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

@@ -1,0 +1,26 @@
+.product-page {
+    padding: 30px 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background: #fff;
+  }
+  
+  .page-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #d97706;
+    margin-bottom: 20px;
+    border-left: 5px solid #ef4444;
+    padding-left: 12px;
+  }
+  
+  .no-products {
+    font-size: 16px;
+    color: #6b7280;
+    padding: 20px;
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 24px;
+  }

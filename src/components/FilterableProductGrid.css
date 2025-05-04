@@ -1,0 +1,45 @@
+.filterable-section {
+  padding: 20px;
+  background-color: #fff;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.filters-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 20px;
+  justify-content: flex-start;
+  background: #f3f4f6;
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+}
+
+.filters-container select {
+  padding: 10px 12px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #fff;
+  min-width: 160px;
+  font-family: inherit;
+  transition: border 0.2s ease;
+}
+
+.filters-container select:focus {
+  outline: none;
+  border-color: #1f2937;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+.no-products {
+  font-size: 16px;
+  color: #6b7280;
+  padding: 20px 0;
+}

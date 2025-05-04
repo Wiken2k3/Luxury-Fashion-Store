@@ -1,0 +1,23 @@
+.product-section {
+  font-family: 'Times New Roman', Times, serif;
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+}
+
+.section-title {
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+  color: #1f2937;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #e5e7eb;
+  padding-bottom: 10px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 24px;
+  justify-items: center;
+  align-items: stretch;
+}

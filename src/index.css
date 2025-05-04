@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family:'Times New Roman', Times, serif;
+  background-color: #f5f5f5;
+  color: #111;
+}
+
+h1, h2, h4 {
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 600;
+}
+
+.container {
+  margin: 0 auto;
+}
